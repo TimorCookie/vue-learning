@@ -11,7 +11,7 @@ class VueRouter {
   }
 
   onHashChange () {
-    console.log(this.$options)
+    // console.log(this.$options)
     this.current = window.location.hash.slice(1)
   }
 }
